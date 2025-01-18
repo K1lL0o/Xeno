@@ -19,9 +19,9 @@
 namespace offsets {
     // Instance
     constexpr std::uint64_t This = 0x8;
-    constexpr std::uint64_t Name = 0x50; // 0x48
-    constexpr std::uint64_t Children = 0x58; // 0x50
-    constexpr std::uint64_t Parent = 0x28; // 0x60
+    constexpr std::uint64_t Name = 0x68; // 0x48
+    constexpr std::uint64_t Children = 0x70; // 0x50
+    constexpr std::uint64_t Parent = 0x50; // 0x60
 
     constexpr std::uint64_t ClassDescriptor = 0x18;
     constexpr std::uint64_t ClassName = 0x8;
@@ -36,7 +36,7 @@ namespace offsets {
     constexpr std::uint64_t BytecodeSize = 0x20;
 
     // Other
-    constexpr std::uint64_t LocalPlayer = 0x110; // 0x100
+    constexpr std::uint64_t LocalPlayer = 0x118; // 0x100
     constexpr std::uint64_t ObjectValue = 0xc0;
 }
 
